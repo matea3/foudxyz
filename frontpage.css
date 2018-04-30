@@ -1,0 +1,111 @@
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    max-width: 100%;
+
+}
+@media only screen and (min-width: 600px) {
+
+
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {max-width: 100%;}
+
+.foud-logo {
+  font-size: 300px
+}
+
+body {
+  background-color:black;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {max-width: 100%;}
+
+    body {
+      background-color:black;
+    }
+
+    .logo-by-reload-btn {
+      font-size: 50px;
+    }
+}
+
+
+
+
+
+body {
+  background-color:white;
+  background-image: linear-gradient(to bottom, #71ff89, #71ff89, #71ff89, #71ff89, #71ff89);
+  background-attachment:local;
+  background-repeat: no-repeat;
+  background-size: 100% 90px;
+  height: 10000px;
+}
+
+
+
+
+.burger-reload-page {
+  margin-left: 20px;
+  padding-right: 1px;
+  margin-top: 20px;
+}
+
+
+.logo-by-reload-btn {
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: -30px;
+    float: left;
+}
+
+.text-by-reload-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight:300;
+    margin-left: 120px;
+    margin-top: -29px;
+    float: left;
+
+}
+
+.foud-logo {
+	font-family: 'Fredoka One', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+    color: black;
+
+}
