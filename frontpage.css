@@ -230,7 +230,7 @@ span.animated-text {
 
 .speechbubble {
     max-width: 80%;
-    max-height:6%;
+    max-height:5%;
     position: absolute;
     margin-top: -790px;
     margin-left: 30px;
