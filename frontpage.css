@@ -3,65 +3,6 @@
 
 
 /* For mobile phones: */
-[class*="col-"] {
-    max-width: 100%;
-
-}
-@media only screen and (min-width: 600px) {
-
-
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {max-width: 100%;}
-
-.foud-logo {
-  font-size: 300px
-}
-
-body {
-  background-color:black;
-}
-
-}
-
-
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {max-width: 100%;}
-
-    body {
-      background-color:black;
-    }
-
-    .logo-by-reload-btn {
-      font-size: 50px;
-    }
-}
-
-
-
-
 
 body {
   background-color:white;
@@ -86,7 +27,7 @@ body {
     font-family: 'Fredoka One', cursive;
     font-size: 16px;
     margin-left: 70px;
-    margin-top: -30px;
+    margin-top: -45px;
     float: left;
 }
 
@@ -95,7 +36,7 @@ body {
     font-size: 16px;
     font-weight:300;
     margin-left: 120px;
-    margin-top: -29px;
+    margin-top: -44px;
     float: left;
 
 }
@@ -107,5 +48,244 @@ body {
     margin-top: 70px;
     margin-bottom: 0;
     color: black;
+
+}
+
+
+.underneath-foud {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+  text-align: center;
+  color: darkgray;
+  margin-top: -120px;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+}
+
+.animated-text {
+    color: black
+}
+
+span.animated-text:before
+{
+    content:'perfect';
+    animation: animate infinite 8s;
+    animation-delay: 7s;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        content: 'perfect'
+
+    }
+    10%
+    {
+        content: 'perfect'
+    }
+    20%
+    {
+        content: 'sour'
+    }
+    30%
+    {
+        content: 'fruity'
+    }
+    40%
+    {
+        content: 'bubbly'
+    }
+    50%
+    {
+        content: 'creamy'
+    }
+    60%
+    {
+        content: 'nutty'
+    }
+    70%
+    {
+        content: 'zingy'
+    }
+    80%
+    {
+        content: 'pickled'
+    }
+    90%
+    {
+        content: 'hot'
+    }
+    100%
+    {
+        content: 'roasted'
+    }
+}
+
+span.animated-text {
+    vertical-align: -15px;
+}
+
+.button-one {
+      text-align: center;
+}
+
+#btn-showmehow {
+      font-family: 'Montserrat', sans-serif;
+      font-weight:300;
+      font-variant: small-caps;
+      background-color:#FF496D; /* pink */
+      border: none;
+      color: white;
+      padding: 30px 40px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 21px;
+      border-radius: 12px;
+      margin-top: 60px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.14), 0 17px 50px 0 rgba(0,0,0,0.19);
+      cursor: pointer;
+      text-align: center;
+
+}
+
+#btn-showmehow:hover {
+    background-color: #E93C5E;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 0px 0px 0 rgba(0,0,0,0);
+
+}
+
+.what {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight:300;
+  color: white;
+  margin-top: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: darkgray;
+  background-size: 200px;
+  background-image: none;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+
+
+[class*="col-"] {
+    max-width: 100%;
+
+}
+@media only screen and (min-width: 600px) {
+
+
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {max-width: 100%;}
+
+.foud-logo {
+  font-size: 150px
+}
+
+.logo-by-reload-btn {
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: -30.8px;
+    float: left;
+}
+
+.text-by-reload-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight:300;
+    margin-left: 120px;
+    margin-top: -30px;
+    float: left;
+}
+
+.underneath-foud {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 34px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+  text-align: center;
+  color: darkgray;
+  margin-top: -70px;
+  position: absolute;
+  top: 400px;
+  left: 0;
+  right: 0;
+}
+
+#btn-showmehow {
+      font-family: 'Montserrat', sans-serif;
+      font-weight:300;
+      font-variant: small-caps;
+      background-color:#FF496D; /* pink */
+      border: none;
+      color: white;
+      padding: 45px 92px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 30px;
+      border-radius: 12px;
+      margin-top: 80px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.14), 0 17px 50px 0 rgba(0,0,0,0.19);
+      cursor: pointer;
+}
+
+
+
+.what {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  font-weight:300;
+  color: white;
+  width: auto;
+  height: auto;
+  margin-top: 500px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: darkgray;
+  background-size: 200px;
+  background-image: none;
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {max-width: 100%;}
+
 
 }

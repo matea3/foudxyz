@@ -40,6 +40,17 @@
           <script>
           $(document).ready(function() {
 
+            $('a[href^="#"]').on('click', function(event) {
+
+                var target = $(this.getAttribute('href'));
+
+                if( target.length ) {
+                    event.preventDefault();
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                }
+              });
 
 
           });
@@ -68,8 +79,19 @@
               </div>
             </div>
 
-              <!--center logo-->
+              <!--center items-->
+              <!--logo-->
               <div class="foud-logo font-effect-shadow-multiple">Foud</div>
+              <!--animated text-->
+              <div><p class="underneath-foud">Discover your <span class="animated-text"></span> meal.</p></div>
+              <!--button-->
+              <div class="button-one">
+              <a href="#what-is-it" id="btn-showmehow">Show me more!</a>
+              <div class="what text-center"><a id="what-is-it"><p>What is it?</p></a></div>
+            </div>
+
+
+
 
 
           </div>
