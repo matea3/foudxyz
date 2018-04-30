@@ -78,102 +78,65 @@ span.animated-text:before
     -webkit-animation-delay: 1.5s;
 }
 
-@keyframes animate
-{
-    0%
-    {
-        content: 'perfect'
-
-    }
-    10%
-    {
-        content: 'perfect'
-    }
-    20%
-    {
-        content: 'sour'
-    }
-    30%
-    {
-        content: 'fruity'
-    }
-    40%
-    {
-        content: 'bubbly'
-    }
-    50%
-    {
-        content: 'creamy'
-    }
-    60%
-    {
-        content: 'nutty'
-    }
-    70%
-    {
-        content: 'zingy'
-    }
-    80%
-    {
-        content: 'pickled'
-    }
-    90%
-    {
-        content: 'hot'
-    }
-    100%
-    {
-        content: 'roasted'
-    }
-}
 
 
 @-webkit-keyframes animate
 {
     0%
     {
-        -webkit-content: 'perfect'
+        -webkit-content: 'perfect';
+                content: 'perfect';
 
     }
     10%
     {
-        -webkit-content: 'perfect'
+        -webkit-content: 'perfect';
+                content: 'perfect';
     }
     20%
     {
-        -webkit-content: 'sour'
+        -webkit-content: 'sour';
+                content: 'sour';
     }
     30%
     {
-        -webkit-content: 'fruity'
+        -webkit-content: 'fruity';
+                content: 'fruity';
     }
     40%
     {
-        -webkit-content: 'bubbly'
+        -webkit-content: 'bubbly';
+                content: 'bubbly';
     }
     50%
     {
-        -webkit-content: 'creamy'
+        -webkit-content: 'creamy';
+                content: 'creamy';
     }
     60%
     {
-        -webkit-content: 'nutty'
+        -webkit-content: 'nutty';
+                content: 'nutty';
     }
     70%
     {
-        -webkit-content: 'zingy'
+        -webkit-content: 'zingy';
+                content: 'zingy';
     }
     80%
     {
-        -webkit-content: 'pickled'
+        -webkit-content: 'pickled';
+                content: 'pickled';
     }
     90%
     {
-        -webkit-content: 'hot'
+        -webkit-content: 'hot';
+                content: 'hot';
     }
     100%
     {
-        -webkit-content: 'roasted'
+        -webkit-content: 'roasted';
+                content: 'roasted';
     }
 }
 
@@ -188,8 +151,7 @@ span.animated-text {
 
 #btn-showmehow {
       font-family: 'Montserrat', sans-serif;
-      font-weight:300;
-      font-variant: small-caps;
+      font-weight:200;
       background-color:#FF496D; /* pink */
       border: none;
       color: white;
@@ -297,12 +259,11 @@ span.animated-text {
 
 #btn-showmehow {
       font-family: 'Montserrat', sans-serif;
-      font-weight:300;
-      font-variant: small-caps;
+      font-weight:200;
       background-color:#FF496D; /* pink */
       border: none;
       color: white;
-      padding: 45px 92px;
+      padding: 45px 72px;
       text-decoration: none;
       display: inline-block;
       font-size: 30px;
