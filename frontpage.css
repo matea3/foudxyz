@@ -74,8 +74,8 @@ body {
 span.animated-text:before
 {
     content:'perfect';
-    animation: animate infinite 8s;
-    animation-delay: 1.5s;
+    -webkit-animation: animate infinite 8s;
+    -webkit-animation-delay: 1.5s;
 }
 
 @keyframes animate
@@ -132,48 +132,48 @@ span.animated-text:before
 {
     0%
     {
-        content: 'perfect'
+        -webkit-content: 'perfect'
 
     }
     10%
     {
-        content: 'perfect'
+        -webkit-content: 'perfect'
     }
     20%
     {
-        content: 'sour'
+        -webkit-content: 'sour'
     }
     30%
     {
-        content: 'fruity'
+        -webkit-content: 'fruity'
     }
     40%
     {
-        content: 'bubbly'
+        -webkit-content: 'bubbly'
     }
     50%
     {
-        content: 'creamy'
+        -webkit-content: 'creamy'
     }
     60%
     {
-        content: 'nutty'
+        -webkit-content: 'nutty'
     }
     70%
     {
-        content: 'zingy'
+        -webkit-content: 'zingy'
     }
     80%
     {
-        content: 'pickled'
+        -webkit-content: 'pickled'
     }
     90%
     {
-        content: 'hot'
+        -webkit-content: 'hot'
     }
     100%
     {
-        content: 'roasted'
+        -webkit-content: 'roasted'
     }
 }
 
