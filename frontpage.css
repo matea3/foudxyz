@@ -287,7 +287,12 @@ input[type=submit] {
 .find-it {
   font-family: 'Montserrat', sans-serif;
   font-weight:200;
-  background-color: DeepSkyBlue; /* light blue */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00bfff+0,236edd+100 */
+  background: #00bfff; /* Old browsers */
+  background: -moz-linear-gradient(left, #00bfff 0%, #236edd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #00bfff 0%,#236edd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #00bfff 0%,#236edd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bfff', endColorstr='#236edd',GradientType=1 ); /* IE6-9 */
   border: none;
   color: white;
   padding: 35px 22px;
